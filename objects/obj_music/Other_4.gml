@@ -1,7 +1,7 @@
 //var play_music = snd_battle
 audio_stop_all()
 switch(room){
-	case Room1:
+	case rm_room:
 		//play_music = snd_music
 		break
 	case rm_battle:
