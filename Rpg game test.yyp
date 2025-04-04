@@ -27,7 +27,9 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Enemies.csv","CopyToMask":-1,"filePath":"datafiles","name":"Enemies.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
@@ -45,6 +47,7 @@
     {"id":{"name":"scr_battle_win","path":"scripts/scr_battle_win/scr_battle_win.yy",},},
     {"id":{"name":"scr_battle","path":"scripts/scr_battle/scr_battle.yy",},},
     {"id":{"name":"scr_game_over","path":"scripts/scr_game_over/scr_game_over.yy",},},
+    {"id":{"name":"scr_load_enemies","path":"scripts/scr_load_enemies/scr_load_enemies.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
   ],

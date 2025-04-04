@@ -1,3 +1,4 @@
+name = ""
 attack = 1
 defense = 1
 hp = 1
