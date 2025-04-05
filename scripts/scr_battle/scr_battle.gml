@@ -3,7 +3,8 @@ function battle(enemy_id){
 	var enemy = load_enemies(enemy_id)
 	while(obj_player.hp > 0 and enemy.hp > 0){
 		//Battle logic
-		
+		player_attack(enemy)
+		enemy_attack(enemy)
 	}
 	if(obj_player.hp == 0){
 		gameover()
