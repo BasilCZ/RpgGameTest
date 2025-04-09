@@ -1,1 +1,3 @@
-battle(0)
+if(obj_controls.inventory){
+	battle(1)
+}
