@@ -1,7 +1,7 @@
-function player_attack(enemy){
-	var damage = obj_player.attack - enemy.defense
+function player_attack(){
+	var damage = obj_player.attack - obj_battle.enemy.defense
 	if(damage < 0){
 		damage = 0
 	}
-	enemy.hp -= damage
+	obj_battle.enemy.hp -= damage
 }

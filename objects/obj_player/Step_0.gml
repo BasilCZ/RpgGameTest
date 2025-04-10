@@ -23,3 +23,8 @@ if(can_move){
 	x += x_speed
 	y += y_speed
 }
+
+//Zajistí aby hráčova hp nemohla jít pod 0 hp
+if(hp < 0){
+	hp = 0
+}

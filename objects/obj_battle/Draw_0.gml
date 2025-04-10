@@ -1,8 +1,11 @@
-//Enemy sprite
-/*for(var i = 0;i < array_length(enemies);i++){
-	draw_sprite(enemies[i][1],0,683,200)
-}*/
+draw_set_halign(fa_center)
+draw_set_valign(fa_middle)
+if(player_attacking){
+	draw_text(enemy.x,enemy.y-75,enemy.hp)
+	draw_text(enemy.x,enemy.y-100,enemy.name)
+}
 
+draw_text(room_width/2,room_height-50,"HP: " + string(obj_player.hp))
 
 x_location = 500
 y_location = 500

@@ -1,5 +1,7 @@
-function battle_win(how_much_xp){
+function battle_win(){
 	show_debug_message("You won")
-	obj_player.xp += how_much_xp
-	room_goto(room_last)
+	obj_player.xp += obj_battle.enemy.get_xp
+	room_goto(obj_player.current_room)
+	obj_player.visible = true
+	obj_player.can_move = true
 }

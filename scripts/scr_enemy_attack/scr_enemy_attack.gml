@@ -1,5 +1,5 @@
-function enemy_attack(enemy){
-	var damage = enemy.attack - obj_player.defense
+function enemy_attack(){
+	var damage = obj_battle.enemy.attack - obj_player.defense
 	if(damage < 0){
 		damage = 0
 	}
