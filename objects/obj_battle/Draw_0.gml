@@ -1,7 +1,7 @@
 draw_set_halign(fa_center)
 draw_set_valign(fa_middle)
 if(player_attacking){
-	draw_text(enemy.x,enemy.y-75,enemy.hp)
+	draw_text(enemy.x,enemy.y-75,string(enemy.hp) + "/" + string(enemy.max_hp))
 	draw_text(enemy.x,enemy.y-100,enemy.name)
 }
 

@@ -18,7 +18,7 @@ if(!player_attacked){
 			index /= 2
 		}
 	}
-	//show_debug_message(index)
+	show_debug_message(index)
 
 	//Výběr voleb
 	if(obj_controls.confirm){
@@ -50,6 +50,16 @@ if(!player_attacked){
 			room_goto(rm_room)
 			obj_player.visible = true
 			obj_player.can_move = true
+		}
+		
+		//Hráčovi se otevírá nabídka healů
+		if(index == -1){
+			
+		}
+		
+		//Itemy
+		if(index == 2){
+			
 		}
 	}
 

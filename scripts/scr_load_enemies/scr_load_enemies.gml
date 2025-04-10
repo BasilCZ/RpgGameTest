@@ -2,7 +2,7 @@
 function load_enemies(enemy_id){
 	var file = file_text_open_read("Enemies.csv")
 	var data = []
-	for (var i = 0; i < enemy_id + 2; ++i) {
+	for (var i = 0; i < enemy_id + 2; i++) {
 		data = string_split(file_text_readln(file), ";")
 	}
 	
@@ -11,8 +11,9 @@ function load_enemies(enemy_id){
 		attack: data[2],
 		defense: data[3],
 		hp: data[4],
+		max_hp: data[5],
 		//Data na indexu 5 obsahuje novej řádek (\n) proto používám string_trim
-		get_xp: real(string_trim(data[5])),
+		get_xp: real(string_trim(data[6])),
 		sprite: spr_enemy
 	}
 	file_text_close(file)

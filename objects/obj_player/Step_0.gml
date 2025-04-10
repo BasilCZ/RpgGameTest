@@ -28,3 +28,8 @@ if(can_move){
 if(hp < 0){
 	hp = 0
 }
+
+//Zajistí aby hráčova hp nebyla větší než jeho max
+if(hp > max_hp){
+	hp = max_hp	
+}
